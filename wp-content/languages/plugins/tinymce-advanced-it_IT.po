@@ -1,0 +1,274 @@
+# Translation of Plugins - TinyMCE Advanced - Stable (latest release) in Italian
+# This file is distributed under the same license as the Plugins - TinyMCE Advanced - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-06-20 09:22:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - TinyMCE Advanced - Stable (latest release)\n"
+
+#. translators: URL to (localised) Advanced TinyMCE Configuration plugin.
+#: tadv_admin.php:950
+msgid "https://wordpress.org/plugins/advanced-tinymce-configuration/"
+msgstr "https://wordpress.org/plugins/advanced-tinymce-configuration/"
+
+#. translators: URL to (localised) Classic Editor plugin.
+#: tadv_admin.php:834
+msgid "https://wordpress.org/plugins/classic-editor/"
+msgstr "https://wordpress.org/plugins/classic-editor/"
+
+#: tadv_admin.php:81 tadv_admin.php:99
+msgid "Settings imported successfully."
+msgstr "Impostazioni importate con successo."
+
+#: tadv_admin.php:60
+msgid "Import settings from string"
+msgstr "Importa impostazioni da una stringa"
+
+#: tadv_admin.php:51
+msgid "Import settings"
+msgstr "Importa impostazioni"
+
+#: tadv_admin.php:890
+msgid "Advanced options for tables"
+msgstr "Opzioni avanzate per le tabelle"
+
+#: tadv_admin.php:148
+msgid "Classic Editor (TinyMCE)"
+msgstr "Classic Editor (TinyMCE)"
+
+#: tadv_admin.php:143
+msgid "Block Editor (Gutenberg)"
+msgstr "Editor dei blocchi (Gutenberg)"
+
+#: tadv_admin.php:153
+msgid "Toolbars for the Block Editor"
+msgstr "Barra degli strumenti per l'editor dei blocchi"
+
+#: tadv_admin.php:163
+msgid "Main toolbar"
+msgstr "Barra degli strumenti principale"
+
+#: tinymce-advanced.php:906
+msgid "Text Color"
+msgstr "Colore del testo"
+
+#: tinymce-advanced.php:907 tadv_admin.php:370
+msgid "Selected text color"
+msgstr "Colore del testo selezionato"
+
+#: tadv_admin.php:366
+msgid "Text color"
+msgstr "Colore del testo"
+
+#: tinymce-advanced.php:909 tadv_admin.php:374
+msgid "Selected text background color"
+msgstr "Colore di sfondo del testo selezionato"
+
+#: tadv_admin.php:392 tadv_admin.php:405
+msgid "No"
+msgstr "No"
+
+#: tadv_admin.php:388 tadv_admin.php:401
+msgid "Yes"
+msgstr "Sì"
+
+#: tinymce-advanced.php:904
+msgid "Underline"
+msgstr "Sottolineato"
+
+#: tinymce-advanced.php:903
+msgid "Mark"
+msgstr "Evidenziato"
+
+#: tinymce-advanced.php:908
+msgid "Text Background Color"
+msgstr "Colore di sfondo del testo"
+
+#: tadv_admin.php:880
+msgid "Disabled:"
+msgstr "Disabilitato:"
+
+#: tinymce-advanced.php:868
+msgid "Classic Paragraph"
+msgstr "Paragrafo classico"
+
+#: tadv_admin.php:824
+msgid "Replace the Block Editor with the Classic Editor"
+msgstr "Sostituisci l'editor dei blocchi con l'editor classico"
+
+#: tadv_admin.php:426
+msgid "Enable the editor menu (recommended)."
+msgstr "Abilita il menu dell'editor (raccomandato)."
+
+#: tadv_admin.php:420
+msgid "For best results enable the menu and add only essential buttons."
+msgstr "Per un risultato migliore abilita il menu e aggiungi solo i pulsanti essenziali."
+
+#: tadv_admin.php:784
+msgid "Replace the size setting available for fonts with: %s."
+msgstr "Sostituisci le impostazioni di grandezza per i caratteri con: %s"
+
+#: tadv_admin.php:881
+msgid "A stylesheet file named editor-style.css was not added by your theme."
+msgstr "Non è stato aggiunto un file di stile chiamato editor-style.css al tuo tema."
+
+#: tinymce-advanced.php:1311
+msgid "Settings"
+msgstr "Parametri"
+
+#: tadv_admin.php:961
+msgid "Settings import and export"
+msgstr "Importazione ed esportazione impostazioni"
+
+#: tadv_admin.php:871
+msgid "Create CSS classes menu"
+msgstr "Crea Menu per Classi CSS"
+
+#: tadv_admin.php:976
+msgid "The Classic Editor (Add New and Edit posts and pages)"
+msgstr "Classic Editor (aggiungi e modifica articoli e pagine)"
+
+#: tadv_admin.php:783
+msgid "Font sizes"
+msgstr "Dimensione carattere"
+
+#: tadv_admin.php:772
+msgid "Replace the browser context (right-click) menu."
+msgstr "Sostituisci il menu contestuale (pulsante destro) del browser."
+
+#: tadv_admin.php:777
+msgid "Alternative link dialog"
+msgstr "Link di dialogo alternativo"
+
+#: tadv_admin.php:765
+msgid "Enable more list options: upper or lower case letters for ordered lists, disk or square for unordered lists, etc."
+msgstr "Abilita più opzioni: maiuscolo o minuscolo per liste ordinate, dischi o quadrati per liste non ordinate, ecc."
+
+#: tadv_admin.php:778
+msgid "Open the TinyMCE link dialog when using the link button on the toolbar or the link menu item."
+msgstr "Apri il link TinyMCE quando usi il pulsante nella barra degli strumenti o il pulsante nel menu."
+
+#: tadv_admin.php:753
+msgid "Options"
+msgstr "Opzioni"
+
+#: tadv_admin.php:138 tadv_admin.php:998
+msgid "Save Changes"
+msgstr "Salva modifiche"
+
+#: tadv_admin.php:126
+msgid "Settings saved."
+msgstr "Impostazioni salvate."
+
+#: tadv_admin.php:959
+msgid "Administration"
+msgstr "Amministrazione"
+
+#: tadv_admin.php:792
+msgid "Advanced Options"
+msgstr "Opzioni Avanzate"
+
+#. Author of the plugin
+msgid "Andrew Ozz"
+msgstr "Andrew Ozz"
+
+#: tadv_admin.php:65
+msgid "Back to Editor Settings"
+msgstr "Torna alle Impostazioni dell'Editor"
+
+#: tadv_admin.php:771
+msgid "Context Menu"
+msgstr "Menu Contestuale"
+
+#: tadv_admin.php:119
+msgid "Editor Settings"
+msgstr "Impostazioni dell'Editor"
+
+#: tadv_admin.php:590
+msgid "Enable the editor menu."
+msgstr "Abilita il menu dell'editor"
+
+#: tadv_admin.php:968
+msgid "Export Settings"
+msgstr "Esporta le Impostazioni"
+
+#. Author URI of the plugin
+msgid "http://www.laptoptips.ca/"
+msgstr "http://www.laptoptips.ca/"
+
+#. Plugin URI of the plugin
+msgid "http://www.laptoptips.ca/projects/tinymce-advanced/"
+msgstr "http://www.laptoptips.ca/projects/tinymce-advanced/"
+
+#: tadv_admin.php:969
+msgid "Import Settings"
+msgstr "Importa le Impostazioni"
+
+#: tadv_admin.php:78
+msgid "Importing of settings failed."
+msgstr "Importazione delle Impostazioni fallita."
+
+#: tadv_admin.php:763
+msgid "List Style Options"
+msgstr "Opzioni di Stile dell'Elenco"
+
+#: tinymce-advanced.php:378
+msgid "Please upgrade your WordPress installation or download an <a href=\"%s\">older version of the plugin</a>."
+msgstr "Si prega di aggiornare la tua installazione di WordPress o di scaricare una <a href=\"%s\">versione più vecchia del plugin</a>."
+
+#. Plugin Name of the plugin
+msgid "TinyMCE Advanced"
+msgstr "TinyMCE Advanced"
+
+#: tadv_admin.php:59
+msgid "Verify"
+msgstr "Verifica"
+
+#: tadv_admin.php:707
+msgid "Unused Buttons"
+msgstr "Bottoni Inutilizzati"
+
+#: tadv_admin.php:45
+msgid "TinyMCE Advanced Settings Import"
+msgstr "Importa Impostazioni di TinyMCE Advanced"
+
+#: tinymce-advanced.php:370
+msgid "TinyMCE Advanced requires WordPress version %1$s or newer. It appears that you are running %2$s. This can make the editor unstable."
+msgstr "TinyMCE Advanced richiede la versione di WordPress %1$s o più recente. Sembra che sia in uso la %2$s. Ciò può rendere l'editor instabile."
+
+#: tadv_admin.php:873
+msgid "Load the CSS classes used in editor-style.css and replace the Formats menu."
+msgstr "Carica le classi CSS usate nell'editor-style.css e sostituisce il bottone Formato ed il sotto-menu."
+
+#: tadv_admin.php:850
+msgid "However it may behave unexpectedly in rare cases, so test it thoroughly before enabling it permanently."
+msgstr "Comunque esso può comportarsi in modo imprevisto in rari casi, quindi testalo a fondo prima di abilitarlo in modo permanente."
+
+#: tadv_admin.php:1003
+msgid "The [Toolbar toggle] button shows or hides the second, third, and forth button rows. It will only work when it is in the first row and there are buttons in the second row."
+msgstr "Il bottone [Levetta Barra degli strumenti] mostra o nasconde la seconda, terza, e quarta fila di bottoni. Funziona solo quando si trova nella prima fila e ci sono pulsanti della seconda fila."
+
+#: tadv_admin.php:38
+msgid "Default settings restored."
+msgstr "Impostazioni predefinite ripristinate."
+
+#: tadv_admin.php:997
+msgid "Restore Default Settings"
+msgstr "Ripristina le Impostazioni predefinite"
+
+#: tadv_admin.php:108
+msgid "ERROR: All toolbars are empty. Default settings loaded."
+msgstr "ERRORE: tutte le barre degli strumenti sono vuote. Sono state caricate le impostazioni predefinite."
+
+#: tadv_admin.php:849
+msgid "This will make it possible to use more advanced coding in the Text tab without the back-end filtering affecting it much."
+msgstr "Questo rende possibile usare un codice più avanzato nella scheda Testo senza che i filtri di backend lo intacchino molto."
+
+#: tadv_admin.php:963
+msgid "The settings are exported as a JSON encoded file."
+msgstr "Le impostazioni sono esportate in un file JSON."

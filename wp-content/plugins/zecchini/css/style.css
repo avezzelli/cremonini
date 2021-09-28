@@ -1,0 +1,444 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 feb 2020, 16:58:11
+    Author     : WinBlu
+*/
+
+
+.ms-parent.multiselect{
+    width:100% !important;
+}
+
+.container-gruppo-voce{
+    /*border: 1px solid #000;
+    padding:25px;
+    margin:15px;*/    
+    margin-bottom:25px;
+}
+
+
+/** BACHECHA COLLAUDO **/
+
+.container-bacheca-gruppo-voce{
+    margin-bottom:25px;   
+    background:rgba(255,255,255,0.5);
+}
+
+.clear{
+    float:none !important;
+    clear:both;
+    width:100%;
+}
+
+.header-gruppo-voce{
+    width:100%;
+    background:rgba(255,255,255,0.7);
+    
+    padding: 15px;
+}
+
+.header-gruppo-voce > div{
+    float:left;
+}
+
+.header-gruppo-voce .num-progressivo{
+    width:5%;
+    
+}
+
+.header-gruppo-voce .titolo-gruppo-voce{
+    width:85%;
+}
+
+.header-gruppo-voce .completamento{
+    width:10%;
+}
+
+.container-voce > div{
+    float:left;
+}
+
+.container-voce .sinistra{
+    width:5%;
+}
+
+.container-voce .centro{
+    width:75%;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.container-voce .centro .esito{
+    width:25%;
+}
+
+.container-voce .destra{
+    width:25%;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.container-voce{
+    margin-bottom: 25px;
+    border:1px solid #ddd;
+    padding:15px;
+}
+
+.container-voce .destra .date .col-sm-3, .container-voce .destra .date .col-sm-9{
+    width:100%;
+    text-align:left;    
+}
+
+.container-voce .destra .date{
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+.container-voce .descrizione{
+    margin-bottom:15px;
+}
+
+.js .tmce-active .wp-editor-area {
+    color: rgb(0, 0, 0) !important;
+}
+
+.aggiungi-commento{
+    margin:15px;
+    padding:15px;
+    border:1px solid #000;
+}
+
+.container-commenti{
+    padding-left:25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.commento-container input[name=form-update-commento]{
+    display:none;
+}
+
+.aggiungi-commento{
+    display: none;
+}
+
+.commento-container{
+    padding:15px;
+    background:rgb(0, 92, 191, 0.2);
+    margin-bottom:15px;
+}
+
+@media(max-width:768px){
+    .container-voce .destra, .container-voce .centro{
+        width: 100%;
+    }
+    
+    .container-voce .centro .esito{
+        width:50%;
+    }
+}
+
+/*** HOME PAGE CANTIERISTA **/
+
+.container-brands{
+    width:100%;
+    margin-bottom: 25px;    
+    padding:25px;
+}
+
+.container-brands .left, .container-brands .right{
+    float:left;
+    width:100%;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.container-brands .brand{
+    float: left;
+    width:100%;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 2px 2px 5px #ddd;
+    background: rgb(255, 255, 255);
+}
+
+.container-brands .brand img{
+    margin:auto;
+}
+
+.container-brands .brand strong{
+    display: block;
+    text-align:center;
+    margin-top:15px;
+    font-size:18px;
+    text-transform: uppercase;
+    color:#000;
+}
+
+@media (min-width:769px){
+    .container-brands .brand{
+        width: 30%;
+        margin:15px;
+    }
+    
+    .container-brands.bacheca-cantierista .brand{
+        width: 30%;
+        margin:0;
+    }
+}
+
+.cantieri .cantiere{
+    padding:15px;
+    background:#fff;
+    margin-bottom:10px;
+    box-shadow:2px 2px 5px #ddd;
+}
+
+
+@media (min-width:769px){
+    .container-brands .left, .container-brands .right{
+        width:45%;
+    }
+}
+
+/** SEMAFORI **/
+
+.semaforo{
+    margin-top:30px;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media(max-width:768px){
+    .semaforo{
+        width:150px;
+        height:50px;
+        
+    }
+    
+    .semaforo .rosso, .semaforo .giallo, .semaforo .verde{
+        float:left;
+    }
+}
+
+
+@media(min-width:769px){
+    .semaforo{
+        width:50px;
+        height:150px;
+    }
+}
+
+.semaforo > div{
+    width:50px;
+    height: 50px;    
+    background-size:cover;    
+}
+
+
+
+.semaforo > div.click{
+    cursor: pointer;
+}
+
+.semaforo > div.rosso{
+    background-image:url('../images/rosso.jpg');
+    background-position: 50px 50px;
+}
+
+.semaforo > div.rosso.attivo{
+    background-position: 0px 0px;
+}
+
+.semaforo > div.giallo{
+    background-image:url('../images/giallo.jpg');
+    background-position: 50px 50px;
+}
+
+.semaforo > div.giallo.attivo{
+    background-position: 0px 0px;
+}
+
+.semaforo > div.verde{
+    background-image:url('../images/verde.jpg');
+    background-position: 50px 50px;
+}
+
+.semaforo > div.verde.attivo{
+    background-position: 0px 0px;
+}
+
+.stato-semaforo{
+    margin-top:5px;
+    margin-bottom:25px;
+    text-align: center;
+    font-style: oblique;
+}
+
+form .btn, .bacheca .btn{
+    color:#fff;
+    background-color:rgb(206, 27, 40); 
+    padding: 12px;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius: 0;
+}
+
+.bacheca .btn{
+    margin-bottom:15px;
+}
+
+form .btn:hover, .bacheca .btn:hover{
+    color:#fff;
+    background-color:rgb(144, 15, 25);
+}
+
+.tab-pane{
+    padding-top:40px;
+}
+
+strong.titolo{
+    display:block;
+    font-size:16px;
+    margin-bottom:15px;
+    text-transform: uppercase;
+}
+
+.table.table-hover > thead > tr > th, .table.table-hover > tbody > tr > th, .table.table-hover > tfoot > tr > th, .table.table-hover > thead > tr > td, .table.table-hover > tbody > tr > td, .table.table-hover > tfoot > tr > td{
+    vertical-align: middle;
+    text-align: center;
+}
+
+form.form-horizontal {
+    background: rgb(255, 255, 255);
+    padding: 25px;
+    box-shadow: 2px 2px 5px #ddd;
+}
+
+.aggiungi-ruolo, .aggiungi-voce{
+    text-align:right;
+}
+
+.container-ruoli > .ruolo:first-child .rimuovi-ruolo, 
+.container-voci > .voce:first-child .rimuovi-voce{
+    display: none;
+}
+
+ul.ui-menu.ui-autocomplete{
+    max-width: 640px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 221, 221);
+    list-style: none;
+    padding:0;
+}
+
+ul.ui-menu.ui-autocomplete li.ui-menu-item{
+    cursor: pointer;
+    padding-left:15px;
+}
+
+ul.ui-menu.ui-autocomplete li.ui-menu-item:hover{
+    background:#ddd;
+}
+
+.ms-drop input[type="checkbox"] {    
+    margin: 0;
+    margin-right: 10px;
+}
+
+.ms-drop ul > li label {
+    cursor:pointer;
+}
+
+.btn a, .btn a:hover{
+    color:#fff;
+}
+
+#dettagligruppovoce .container-voci{
+    display:none;
+}
+
+.voce {
+    border: 1px solid rgb(221, 221, 221);
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+#salvagruppovoce .mostranascondi-container-voci{
+    display: none;
+}
+
+.mostranascondi-container-voci{
+    text-align: right;
+    margin-bottom:25px;
+    cursor: pointer;
+    line-height: 40px;
+}
+
+.mostranascondi-container-voci > span, .mostranascondi-voci > span{
+    display: block;
+    float:left;
+}
+
+.mostranascondi-container-voci span.icona, .mostranascondi-voci span.icona{
+    width:40px;
+    height: 40px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('../images/ico-down.png');
+    display:block;
+    cursor: pointer;
+}
+
+.mostranascondi-container-voci.open span.icona, .mostranascondi-voci.open span.icona{
+    background-image: url('../images/ico-up.png');
+}
+
+a.btn.btn-aggiungi-commento, a.btn.elimina-commento-ajax {
+    float: right;
+}
+
+.ui-helper-hidden-accessible{
+    display: none;
+}
+
+.datepicker{
+    max-width:300px !important;
+}
+
+.container-dettaglio-collaudo{
+    width:100%;
+}
+
+.container-dettaglio-collaudo .grafico-torta, 
+.container-dettaglio-collaudo .form-dati{
+    float:left;
+    padding:15px;
+}
+
+.container-dettaglio-collaudo .grafico-torta{
+    text-align: center;
+}
+
+@media (min-width:769px){
+    .container-dettaglio-collaudo .grafico-torta{
+        width:30%;
+    }
+    .container-dettaglio-collaudo .form-dati{
+        width:70%;
+    }
+}
+
+#precollaudoLogs table td, #collaudoLogs table td{
+    font-size:10px;
+}
+
+textarea.wp-editor-area{
+    height: 150px;
+}

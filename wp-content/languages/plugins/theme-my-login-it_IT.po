@@ -1,0 +1,514 @@
+# Translation of Plugins - Theme My Login - Development (trunk) in Italian
+# This file is distributed under the same license as the Plugins - Theme My Login - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-06-13 17:58:48+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: it\n"
+"Project-Id-Version: Plugins - Theme My Login - Development (trunk)\n"
+
+#: admin/settings.php:134
+msgid "AJAX"
+msgstr "AJAX"
+
+#: includes/actions.php:439
+msgid "https://wordpress.org/support/forums/"
+msgstr "https://wordpress.org/support/forums/"
+
+#: includes/class-theme-my-login-widget.php:96 includes/shortcodes.php:85
+msgid "Edit My Profile"
+msgstr "Modifica il mio profilo"
+
+#: includes/compat.php:29 includes/compat.php:50
+msgid "<strong>Error</strong>: There is no account with that username or email address."
+msgstr "<strong>Errore</strong>: non ci sono account con quel nome utente o quell'indirizzo email."
+
+#: admin/settings.php:656 admin/settings.php:679 admin/settings.php:699
+#: admin/settings.php:727
+msgid "View Documentation"
+msgstr "Visualizza la documentazione"
+
+#: includes/class-theme-my-login-widget.php:57
+msgctxt "Howdy"
+msgid "Welcome"
+msgstr "Benvenuto"
+
+#: admin/settings.php:757
+msgid "For more information:"
+msgstr "Per ulteriori informazioni:"
+
+#: admin/settings.php:648
+msgid "Welcome to Theme My Login!"
+msgstr "Benvenuto in Theme My Login!"
+
+#: admin/settings.php:646 admin/settings.php:669 admin/settings.php:691
+#: admin/settings.php:715
+msgid "Overview"
+msgstr "Panoramica"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://thememylogin.com"
+msgstr "https://thememylogin.com"
+
+#: includes/extensions.php:210
+msgid "Invalid license."
+msgstr "Licenza non valida."
+
+#. translators: %s: site name
+#: includes/compat.php:93
+msgid "Site Name: %s"
+msgstr "Nome del sito: %s"
+
+#: includes/class-theme-my-login-widget.php:166
+msgid "Action:"
+msgstr "Azione:"
+
+#: admin/settings.php:617
+msgid "Settings saved."
+msgstr "Impostazioni salvate."
+
+#: admin/settings.php:503
+msgid "Deactivate"
+msgstr "Disattiva"
+
+#: admin/settings.php:185
+msgid "Passwords"
+msgstr "Password"
+
+#: admin/settings.php:113
+msgid "Slugs"
+msgstr "Slug"
+
+#: admin/settings.php:108
+msgid "Registration"
+msgstr "Registrazione"
+
+#: admin/functions.php:311
+msgid "Add to Menu"
+msgstr "Aggiungi al menu"
+
+#: includes/functions.php:555 admin/functions.php:278
+msgid "Theme My Login Actions"
+msgstr "Azioni Theme My Login"
+
+#: admin/functions.php:110 admin/functions.php:355
+msgid "Extensions"
+msgstr "Estensioni"
+
+#: admin/functions.php:109
+msgid "Theme My Login Extensions"
+msgstr "Estensioni Theme My Login"
+
+#: admin/functions.php:100
+msgid "Licenses"
+msgstr "Licenze"
+
+#: admin/functions.php:99
+msgid "Theme My Login Licenses"
+msgstr "Licenze Theme My Login"
+
+#: admin/extensions.php:104
+msgid "View All Extensions"
+msgstr "Visualizza tutte le estensioni"
+
+#: admin/extensions.php:94 admin/functions.php:186
+msgid "Get This Extension"
+msgstr "Ottieni questa estensione"
+
+#: admin/extensions.php:72
+msgid "Error: %s"
+msgstr "Errore: %s"
+
+#: includes/forms.php:264
+msgid "Confirm new password"
+msgstr "Conferma nuova password"
+
+#: includes/ms-functions.php:376 includes/forms.php:154 includes/forms.php:275
+msgid "Strength indicator"
+msgstr "Livello di sicurezza"
+
+#: includes/forms.php:253
+msgid "New password"
+msgstr "Nuova password"
+
+#: includes/forms.php:173
+msgid "Registration confirmation will be emailed to you."
+msgstr "La conferma della registrazione sarà inviata al tuo indirizzo email."
+
+#: includes/ms-functions.php:1080
+msgid "New Password"
+msgstr "Nuova password"
+
+#: includes/ms-functions.php:150
+msgid "Next"
+msgstr "Successivo"
+
+#: includes/ms-functions.php:140
+msgid "Just a username, please."
+msgstr "Solo un nome utente, grazie."
+
+#: includes/ms-functions.php:139
+msgid "Gimme a site!"
+msgstr "Dammi un sito!"
+
+#: includes/ms-functions.php:105
+msgid "We send your registration email to this address. (Double-check your email address before continuing.)"
+msgstr "Inviamo la email di registrazione a questo indirizzo (Controlla la tua email prima di continuare)"
+
+#: includes/ms-functions.php:104
+msgid "Email&nbsp;Address:"
+msgstr "Indirizzo email:"
+
+#: includes/ms-functions.php:82
+msgid "(Must be at least 4 characters, letters and numbers only.)"
+msgstr "(Deve essere di almeno 4 caratteri, solo lettere e numeri)."
+
+#: includes/ms-functions.php:779
+msgid "Get your own %s account in seconds"
+msgstr "Ottieni il tuo %s account in pochi secondi"
+
+#: includes/ms-functions.php:195
+msgid "Signup"
+msgstr "Registrazione"
+
+#: includes/ms-functions.php:232
+msgid "Create Site"
+msgstr "Crea un Sito"
+
+#: includes/ms-functions.php:311
+msgid "No"
+msgstr "No"
+
+#: includes/ms-functions.php:310
+msgid "Yes"
+msgstr "Sì"
+
+#: includes/ms-functions.php:315
+msgid "Allow search engines to index this site."
+msgstr "Permetti ai motori di ricerca di indicizzare questo sito."
+
+#: includes/ms-functions.php:307
+msgid "Privacy:"
+msgstr "Privacy:"
+
+#: includes/ms-functions.php:292
+msgid "Site Title:"
+msgstr "Titolo del sito:"
+
+#: includes/ms-functions.php:251 includes/ms-functions.php:272
+msgid "Must be at least 4 characters, letters and numbers only. It cannot be changed, so choose carefully!"
+msgstr "Deve essere di almeno 4 caratteri, solo lettere e numeri. Non può essere cambiato, perciò scegli con attenzione!"
+
+#: includes/ms-functions.php:250 includes/ms-functions.php:271
+msgid "Your address will be %s."
+msgstr "Il tuo indirizzo sarà %s."
+
+#: includes/ms-functions.php:271
+msgid "domain"
+msgstr "dominio"
+
+#: includes/ms-functions.php:250
+msgid "sitename"
+msgstr "nome sito"
+
+#: includes/ms-functions.php:277
+msgid "Site Domain:"
+msgstr "Dominio del sito:"
+
+#: includes/ms-functions.php:256
+msgid "Site Name: "
+msgstr "Nome del sito:"
+
+#: includes/ms-functions.php:874
+msgid "If you&#8217;re not going to use a great site domain, leave it for a new user. Now have at it!"
+msgstr "Se non usi un dominio di rilievo, lascialo ad un altro utente. "
+
+#: includes/ms-functions.php:866
+msgid "Sites you are already a member of:"
+msgstr "Blog di cui sei già membro:"
+
+#: includes/ms-functions.php:862
+msgid "Welcome back, %s. By filling out the form below, you can <strong>add another site to your account</strong>. There is no limit to the number of sites you can have, so create to your heart&#8217;s content, but write responsibly!"
+msgstr "Bentornato/a, %s. Completando il modulo sottostante, puoi <strong>aggiungere un altro sito al tuo account</strong>. Non c&#8217;è limite al numero di siti che puoi gestire, perciò creane a piacimento, ma scrivi responsabilmente!"
+
+#: includes/ms-functions.php:858
+msgid "Get <em>another</em> %s site in seconds"
+msgstr "Ottieni <em>un altro</em> %s sito in pochi secondi"
+
+#: includes/forms.php:223
+msgid "Get New Password"
+msgstr "Ottieni una nuova password"
+
+#: includes/forms.php:66
+msgid "Remember Me"
+msgstr "Ricordami"
+
+#: includes/functions.php:784 includes/functions.php:791 includes/forms.php:105
+msgid "Username"
+msgstr "Nome utente"
+
+#: admin/settings.php:157 admin/settings.php:177
+msgid "Default"
+msgstr "Predefinito"
+
+#: includes/actions.php:32
+msgid "Log in"
+msgstr "Accedi"
+
+#: includes/actions.php:516
+msgid "Registration complete. You may now log in."
+msgstr "Registrazione completata. Ora puoi accedere."
+
+#: includes/functions.php:693
+msgid "<strong>Error</strong>: Passwords may not contain the character \"\\\"."
+msgstr "<strong>Errore</strong>: le password non possono contenere il carattere \"\\\"."
+
+#: includes/ms-functions.php:366 includes/forms.php:144
+msgid "Confirm Password"
+msgstr "Conferma password"
+
+#: includes/ms-functions.php:356 includes/forms.php:53 includes/forms.php:134
+msgid "Password"
+msgstr "Password"
+
+#: includes/functions.php:793 includes/forms.php:125
+msgid "Email"
+msgstr "Email"
+
+#: includes/functions.php:690
+msgid "<strong>Error</strong>: Please enter a password."
+msgstr "<strong>Errore</strong>: inserisci una password."
+
+#. translators: Password reset email subject. %s: Site name
+#: includes/compat.php:110
+msgid "[%s] Password Reset"
+msgstr "[%s] Reimposta password "
+
+#: includes/compat.php:97
+msgid "To reset your password, visit the following address:"
+msgstr "Per cambiare password, visita questo indirizzo:"
+
+#: includes/compat.php:96
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr "Se questo è stato un errore, basta ignorare questa email e non accadrà nulla."
+
+#. translators: %s: user login
+#: includes/compat.php:95
+msgid "Username: %s"
+msgstr "Nome utente: %s"
+
+#: includes/compat.php:91
+msgid "Someone has requested a password reset for the following account:"
+msgstr "Qualcuno ha richiesto la reimpostazione della password per l'account seguente:"
+
+#: includes/compat.php:25
+msgid "<strong>Error</strong>: Please enter a username or email address."
+msgstr "<strong>Errore</strong>: inserisci un nome utente o un indirizzo email."
+
+#: includes/actions.php:525
+msgid "<strong>You have successfully updated WordPress!</strong> Please log back in to see what&#8217;s new."
+msgstr "<strong>Hai aggiornato correttamente WordPress!</strong> Effettua di nuovo il login per vedere le novità."
+
+#: includes/actions.php:522
+msgid "Your password has been reset."
+msgstr "La tua password è stata reimpostata."
+
+#: includes/actions.php:653
+msgid "Check your email for the confirmation link."
+msgstr "Controlla la tua email per il link di conferma."
+
+#: includes/actions.php:509 includes/actions.php:596
+msgid "User registration is currently not allowed."
+msgstr "La registrazione attualmente non è permessa."
+
+#: includes/actions.php:506
+msgid "You are now logged out."
+msgstr "Sei stato disconnesso."
+
+#: includes/actions.php:724
+msgid "The passwords do not match."
+msgstr "Le password non combaciano."
+
+#: includes/actions.php:676
+msgid "Your password reset link has expired. Please request a new link below."
+msgstr "Il link per reimpostare la password è scaduto. Richiedi un nuovo link."
+
+#: includes/actions.php:674
+msgid "Your password reset link appears to be invalid. Please request a new link below."
+msgstr "Il tuo link per reimpostare la password risulta non valido. Richiedine un altro qui sotto."
+
+#: includes/actions.php:69
+msgid "Reset Password"
+msgstr "Cambia password"
+
+#: includes/class-theme-my-login-widget.php:100 includes/actions.php:38
+#: includes/shortcodes.php:89
+msgid "Log Out"
+msgstr "Esci"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: includes/class-theme-my-login-widget.php:23 admin/functions.php:67
+msgid "Theme My Login"
+msgstr "Theme My Login"
+
+#: includes/class-theme-my-login-widget.php:25
+msgid "A login form for your site."
+msgstr "Un modulo d'accesso per il tuo sito."
+
+#: includes/class-theme-my-login-widget.php:92 includes/actions.php:19
+msgid "Dashboard"
+msgstr "Bacheca"
+
+#: includes/actions.php:28 includes/forms.php:74 admin/settings.php:103
+msgid "Log In"
+msgstr "Accedi"
+
+#: includes/actions.php:58
+msgid "Lost Password"
+msgstr "Password dimenticata"
+
+#: includes/actions.php:48 includes/forms.php:180
+msgid "Register"
+msgstr "Registrati"
+
+#: includes/ms-functions.php:1107
+msgid "Your account is now activated. <a href=\"%1$s\">Log in</a> or go back to the <a href=\"%2$s\">homepage</a>."
+msgstr "Il tuo account è stato attivato. Effettua il <a href=\"%1$s\">Login</a> o torna alla <a href=\"%2$s\">homepage</a>."
+
+#: includes/ms-functions.php:1103
+msgid "Your account is now activated. <a href=\"%1$s\">View your site</a> or <a href=\"%2$s\">Log in</a>"
+msgstr "Il tuo account è stato attivato. <a href=\"%1$s\">Visualizza il tuo sito</a> o effettua il <a href=\"%2$s\">login</a>"
+
+#: includes/ms-functions.php:1094
+msgid "Password:"
+msgstr "Password:"
+
+#: includes/ms-functions.php:81 includes/ms-functions.php:1093
+msgid "Username:"
+msgstr "Nome utente:"
+
+#: includes/ms-functions.php:1083
+msgid "An error occurred during the activation"
+msgstr "Si è verificato un errore durante l'attivazione"
+
+#: includes/ms-functions.php:1064
+msgid "Your site at %1$s is active. You may now log in to your site using your chosen username of &#8220;%2$s&#8221;. Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>."
+msgstr "Il tuo sito a %1$s è attivo. Puoi accedere al tuo sito usando il nome utente da te scelto di &#8220;%2$s&#8221;. Controlla la tua posta in arrivo a %3$s per la tua password e le istruzioni per il login. Se non ricevi un'email, controlla la posta indesiderata. Se dopo un'ora non hai ancora ricevuto l'email, puoi <a href=\"%4$s\">reimpostare la tua password</a>."
+
+#: includes/ms-functions.php:1056
+msgid "Your account has been activated. You may now <a href=\"%1$s\">log in</a> to the site using your chosen username of &#8220;%2$s&#8221;. Please check your email inbox at %3$s for your password and login instructions. If you do not receive an email, please check your junk or spam folder. If you still do not receive an email within an hour, you can <a href=\"%4$s\">reset your password</a>."
+msgstr "Il tuo account è stato attivato. Puoi <a href=\"%1$s\">accedere</a> usando il nome utente da te scelto di &#8220;%2$s&#8221;.  Controlla la tua posta in arrivo a %3$s per la tua password e le istruzioni per accedere. Se non ricevi un'email, ti preghiamo di controllare la posta indesiderata. Se dopo un'ora non hai ancora ricevuto l'email, puoi <a href=\"%4$s\">reimpostare la tua password</a>."
+
+#: includes/ms-functions.php:1052 includes/ms-functions.php:1090
+msgid "Your account is now active!"
+msgstr "Il tuo account è attivo ora!"
+
+#: includes/ms-functions.php:389 admin/settings.php:515
+msgid "Activate"
+msgstr "Attiva"
+
+#: includes/ms-functions.php:347
+msgid "Activation Key:"
+msgstr "Chiave di Attivazione:"
+
+#: includes/ms-functions.php:1044
+msgid "Activation Key Required"
+msgstr "Richiesta la chiave di attivazione"
+
+#: includes/ms-functions.php:713
+msgid "You are logged in already. No need to register again!"
+msgstr "Sei già connesso. Non è necessario registrarsi nuovamente!"
+
+#: includes/ms-functions.php:711
+msgid "Sorry, new registrations are not allowed at this time."
+msgstr "Siamo spiacenti, al momento non sono consentite nuove registrazioni."
+
+#: includes/ms-functions.php:685
+msgid "The site %s is yours."
+msgstr "Il sito %s è di tua proprietà."
+
+#: includes/ms-functions.php:658
+msgid "Site registration has been disabled."
+msgstr "La registrazione al sito è stata disabilitata."
+
+#: includes/ms-functions.php:653
+msgid "Have you entered your email correctly? You have entered %s, if it&#8217;s incorrect, you will not receive your email."
+msgstr "Hai inserito la tua email correttamente? Hai inserito %s, se non è corretta, non riceverai il tuo messaggio di posta."
+
+#: includes/ms-functions.php:652
+msgid "Check the junk or spam folder of your email client. Sometime emails wind up there by mistake."
+msgstr "Controlla la cartella della posta indesiderata. A volte le email finiscono lì per errore."
+
+#: includes/ms-functions.php:651
+msgid "Wait a little longer. Sometimes delivery of email can be delayed by processes outside of our control."
+msgstr "Aspetta ancora un po'. A volte la consegna delle email può essere ritardata da processi esterni."
+
+#: includes/ms-functions.php:649
+msgid "If you haven&#8217;t received your email yet, there are a number of things you can do:"
+msgstr "Se non hai ancora ricevuta l'email, ci sono una serie di cose che puoi fare:"
+
+#: includes/ms-functions.php:647
+msgid "Still waiting for your email?"
+msgstr "Sei ancora in attesa della tua email?"
+
+#: includes/ms-functions.php:646
+msgid "If you do not activate your site within two days, you will have to sign up again."
+msgstr "Se non attivi entro due giorni il tuo sito, dovrai registrarti nuovamente"
+
+#: includes/ms-functions.php:644
+msgid "But, before you can start using your site, <strong>you must activate it</strong>."
+msgstr "Ma, prima di poter iniziare ad utilizzare il tuo sito <strong>devi attivarlo</strong>."
+
+#: includes/ms-functions.php:643
+msgid "Congratulations! Your new site, %s, is almost ready."
+msgstr "Congratulazioni! Il tuo nuovo sito, %s, è quasi pronto."
+
+#: includes/ms-functions.php:629
+msgid "User registration has been disabled."
+msgstr "La registrazione utenti è stata disabilitata."
+
+#: includes/ms-functions.php:626
+msgid "If you do not activate your username within two days, you will have to sign up again."
+msgstr "Se non procedi all'attivazione del tuo nome utente entro due giorni, dovrai nuovamente effettuare l'accesso."
+
+#: includes/ms-functions.php:624
+msgid "But, before you can start using your new username, <strong>you must activate it</strong>."
+msgstr "Prima di poter iniziare a usare il tuo nome utente, <strong>lo devi attivare</strong>."
+
+#: includes/ms-functions.php:623
+msgid "%s is your new username"
+msgstr "%s è il tuo nome utente"
+
+#: includes/ms-functions.php:608
+msgid "You must first <a href=\"%s\">log in</a>, and then you can create a new site."
+msgstr "Devi prima <a href=\"%s\">accedere</a>, dopo puoi creare un nuovo sito."
+
+#: includes/ms-functions.php:605
+msgid "Registration has been disabled."
+msgstr "La registrazione è stata disabilitata."
+
+#: admin/settings.php:159 admin/settings.php:178
+msgid "Email only"
+msgstr "Solo email"
+
+#: admin/settings.php:158
+msgid "Username only"
+msgstr "Solo nome utente"
+
+#: admin/settings.php:150 admin/settings.php:155
+msgid "Login Type"
+msgstr "Tipo di Accesso"
+
+#: admin/functions.php:78 admin/settings.php:98
+msgid "General"
+msgstr "Generale"
+
+#: admin/functions.php:66 admin/functions.php:77
+msgid "Theme My Login Settings"
+msgstr "Impostazioni di Theme My Login"

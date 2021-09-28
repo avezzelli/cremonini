@@ -1,0 +1,258 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 4 feb 2020, 16:58:11
+    Author     : WinBlu
+*/
+
+
+.ms-parent.multiselect{
+    width:100% !important;
+}
+
+.container-gruppo-voce{
+    border: 1px solid #000;
+    padding:25px;
+    margin:15px;
+}
+
+
+/** BACHECHA COLLAUDO **/
+
+.container-bacheca-gruppo-voce{
+    margin-bottom:25px;   
+    background:rgba(255,255,255,0.5);
+}
+
+.clear{
+    float:none !important;
+    clear:both;
+    width:100%;
+}
+
+.header-gruppo-voce{
+    width:100%;
+    background:rgba(255,255,255,0.7);
+    
+    padding: 15px;
+}
+
+.header-gruppo-voce > div{
+    float:left;
+}
+
+.header-gruppo-voce .num-progressivo{
+    width:5%;
+    
+}
+
+.header-gruppo-voce .titolo-gruppo-voce{
+    width:85%;
+}
+
+.header-gruppo-voce .completamento{
+    width:10%;
+}
+
+.container-voce > div{
+    float:left;
+}
+
+.container-voce .sinistra{
+    width:5%;
+}
+
+.container-voce .centro{
+    width:75%;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.container-voce .centro .esito{
+    width:25%;
+}
+
+.container-voce .destra{
+    width:25%;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.container-voce{
+    margin-bottom: 25px;
+    border:1px solid #000;
+    padding:15px;
+}
+
+.container-voce .destra .date .col-sm-3, .container-voce .destra .date .col-sm-9{
+    width:100%;
+    text-align:left;    
+}
+
+.container-voce .destra .date{
+    padding-left:15px;
+    padding-right: 15px;
+}
+
+.container-voce .descrizione{
+    margin-bottom:15px;
+}
+
+.js .tmce-active .wp-editor-area {
+    color: rgb(0, 0, 0) !important;
+}
+
+.aggiungi-commento{
+    margin:15px;
+    padding:15px;
+    border:1px solid #000;
+}
+
+.container-commenti{
+    padding-left:25px;
+}
+
+.commento-container input[name=form-update-commento]{
+    display:none;
+}
+
+.aggiungi-commento{
+    display: none;
+}
+
+.commento-container{
+    padding:15px;
+    background:rgb(0, 92, 191, 0.2);
+    margin-bottom:15px;
+}
+
+@media(max-width:768px){
+    .container-voce .destra, .container-voce .centro{
+        width: 100%;
+    }
+    
+    .container-voce .centro .esito{
+        width:50%;
+    }
+}
+
+/*** HOME PAGE CANTIERISTA **/
+
+.container-brands{
+    width:100%;
+    margin-bottom: 25px;
+    border:1px solid #000;
+    padding:25px;
+}
+
+.container-brands .left, .container-brands .right{
+    float:left;
+    width:100%;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.cantieri .cantiere{
+    padding:15px;
+    background:#fff;
+    margin-bottom:10px;
+    box-shadow:2px 2px 5px #000;
+}
+
+
+@media (min-width:769px){
+    .container-brands .left, .container-brands .right{
+        width:50%;
+    }
+}
+
+/** SEMAFORI **/
+
+.semaforo{
+    margin-top:30px;
+    margin-bottom:10px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media(max-width:768px){
+    .semaforo{
+        width:150px;
+        height:50px;
+        
+    }
+    
+    .semaforo .rosso, .semaforo .giallo, .semaforo .verde{
+        float:left;
+    }
+}
+
+
+@media(min-width:769px){
+    .semaforo{
+        width:50px;
+        height:150px;
+    }
+}
+
+.semaforo > div{
+    width:50px;
+    height: 50px;    
+    background-size:cover;    
+}
+
+
+
+.semaforo > div.click{
+    cursor: pointer;
+}
+
+.semaforo > div.rosso{
+    background-image:url('../images/rosso.jpg');
+    background-position: 50px 50px;
+}
+
+.semaforo > div.rosso.attivo{
+    background-position: 0px 0px;
+}
+
+.semaforo > div.giallo{
+    background-image:url('../images/giallo.jpg');
+    background-position: 50px 50px;
+}
+
+.semaforo > div.giallo.attivo{
+    background-position: 0px 0px;
+}
+
+.semaforo > div.verde{
+    background-image:url('../images/verde.jpg');
+    background-position: 50px 50px;
+}
+
+.semaforo > div.verde.attivo{
+    background-position: 0px 0px;
+}
+
+.stato-semaforo{
+    margin-bottom:25px;
+    text-align: center;
+    font-style: oblique;
+}
+
+form .btn{
+    color:#fff;
+    background-color:rgb(206, 27, 40); 
+    padding: 12px;
+    margin-left:5px;
+    margin-right:5px;
+    border-radius: 0;
+}
+
+form .btn:hover{
+    color:#fff;
+    background-color:rgb(144, 15, 25);
+}

@@ -1,0 +1,20 @@
+/*
+Theme Name: SpicePress Child
+Theme URI: https://spicethemes.com/spicepress-wordpress-theme/
+Template: spicepress-1.7
+Author: spicethemes.com
+Author URI: https://spicethemes.com
+Description: SpicePress is a responsive and fully customizable business template. It is a perfect solution for creative and corporate websites, restaurants, wedding planners, law firms, finance, consulting, travel, photography, recipes, design, sport/medical shops, startups, online agencies, portfolios, E-commerce (WooCommerce), and freelancers. The advanced admin panel will enable you to personalize SpicePress without any technical information. SpicePress is translation ready and supports popular plugins like WPML, Polylang, WooCommerce and Contact Form 7. Check out also SpicePress PRO, the premium version, which has a lot more to offer.
+Tags: one-column,two-columns,right-sidebar,flexible-header,custom-colors,custom-menu,custom-logo,editor-style,featured-images,footer-widgets,sticky-post,threaded-comments,translation-ready,rtl-language-support
+Version: 1.7.1585220409
+Updated: 2020-03-26 12:00:09
+
+*/
+
+.site-footer{
+    background-color: #235437;
+}
+
+.blog-section{
+    padding-bottom:150px;
+}
