@@ -793,7 +793,7 @@ class CollaudoView  extends PrinterView implements InterfaceView{
     }
     */
     
-    public function printBachecaCollaudoTitoli(Collaudo $obj){        
+    public function printBachecaCollaudoTitoli(Collaudo $obj){         
         $isResponsabile = isResponsabile($obj->getResponsabili(), get_current_user_id());
         //MODIFICA --> possono mettere il verde anche i collaudatori nel collaudo (nel precollaudo i collaudatori teoricamente non ci sono)
         $isCollaudatore = isCollaudatore(get_current_user_id(), $obj->getID());
@@ -857,7 +857,7 @@ class CollaudoView  extends PrinterView implements InterfaceView{
         
     }
     
-    public function printBachecaGV(Collaudo $obj, $idGV){
+    public function printBachecaGV(Collaudo $obj, $idGV){           
         $arrayStatoVoce = array();
         $isResponsabile = isResponsabile($obj->getResponsabili(), get_current_user_id());
         //MODIFICA --> possono mettere il verde anche i collaudatori nel collaudo (nel precollaudo i collaudatori teoricamente non ci sono)
@@ -949,8 +949,8 @@ class CollaudoView  extends PrinterView implements InterfaceView{
                                     $this->printEsito($voce->getTipo(), $voce->getID(), $voce->getEsito());
                                     echo '</div>';
 
-                                    //note
-                                    $this->printNote($voce->getID(), $voce->getNote());
+                                    //note                                    
+                                    $this->printNote($voce->getID(), $voce->getNote());                                   
 
                                     echo '<div class="container-commenti">';
                                     echo '<h5>Commenti salvati</h5>';
@@ -1009,7 +1009,9 @@ class CollaudoView  extends PrinterView implements InterfaceView{
     
     private function printNote($idVoce, $value){
         $settings  = array( 'media_buttons' => true );
+        echo '<div class="titolo-note">';
         echo 'NOTE';
+        echo '</div>';
         return wp_editor($value, FRM_VOCE_NOTE.'-'.$idVoce, $settings);
     }
     

@@ -442,3 +442,15 @@ a.btn.btn-aggiungi-commento, a.btn.elimina-commento-ajax {
 textarea.wp-editor-area{
     height: 150px;
 }
+
+.titolo-note{
+    margin-top:50px;
+    margin-bottom: 20px;
+    font-size:20px;
+    text-align:center;
+    font-weight: 600;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:rgb(206, 27, 40);
+    color:#fff;
+}

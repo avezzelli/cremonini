@@ -909,7 +909,7 @@ class CollaudoController implements InterfaceController {
         //6. In caso di precollaudo e almeno una voce di un GV è tornata rossa, inviare mail a progettista del gruppo voce
         //7. In caso di collaudo controllare se le voci di un GV sono tutte gialle. In questo caso inviare mail ai responsabili
         //8. In caso di collaudo quando e almeno una voce di u GV è tornata rossa, inviare mail a progettisti. 
-        //9. in caso di collaudo, quadnto tutte le voci di tutti i GB sono verdi, inviare una mail a (non si sa ancora a chi). 
+        //9. in caso di collaudo, quando tutte le voci di tutti i GB sono verdi, inviare una mail a (non si sa ancora a chi). 
         
         //NOTA BENE:
         //Devo inviare una mail quando una voce da VERDE torna ROSSA e questo lo può fare:
@@ -1037,7 +1037,7 @@ class CollaudoController implements InterfaceController {
                 $message = '<h2 style="text-align:center">ATTENZIONE!</h2><p>Comunicazione per tutti i progettisti del <strong>COLLAUDO</strong> del Cantiere <strong>'.$cantiere->getNome().'</strong></p>'
                          . '<p>Alcune voci del gruppo <strong>'.$gv->getTitolo().'</strong> sono state impostate nuovamente da <strong>VERIFICARE</strong> in quanto non hanno soddisfatto determinati parametri.</p>';
             }            
-            //9. in caso di collaudo, quadnto tutte le voci di tutti i GB sono verdi, inviare una mail a (non si sa ancora a chi). 
+            //9. in caso di collaudo, quando tutte le voci di tutti i GB sono verdi, inviare una mail a (non si sa ancora a chi). 
             //probabilmente una mail da settare nelle impostazioni del gestionale o direttamente la mail del proprietario
             if($this->isAllGvStato($collaudo, VOCE_STATO_VERDE)){
                 $emails = array();                

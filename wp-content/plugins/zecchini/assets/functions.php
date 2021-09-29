@@ -450,7 +450,7 @@ function getNiceName($idUtenteWP){
 }
 
 function canReadGV(GruppoVoce $gv, $idUserWP, $isResponsabile){        
-    //se è amministratore o responsabile, può vedere
+    //se è amministratore o responsabile, può vedere    
     if(isAdmin() || $isResponsabile == true){
         return true;
     }    
@@ -461,7 +461,7 @@ function canReadGV(GruppoVoce $gv, $idUserWP, $isResponsabile){
         //var_dump($gv);
         //ottengo la visibilià del gruppo voce
         //ciò che ottengo sono gli id dei ruoliC che possono vedere il gruppo voce 
-        $arrayV = $gv->getVisibilita();
+        $arrayV = $gv->getVisibilita();        
         foreach($arrayV as $item){            
             //faccio un controllo incrociato sulla tabella utentec_ruoloc dove cerco id_utentec, id_collaudo e id_ruoloc
             //se la query mi restituisce un risultato allora l'utente è abilitato a vedere, altrimenti no
@@ -502,7 +502,6 @@ function getIdUtenteC($idUserWP){
 }
 
 function isResponsabile($responsabili, $idUserWP){
-    
     if(isAdmin()){
         return true;
     }
